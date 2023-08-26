@@ -11,3 +11,33 @@ and then added event listener to buttons respectively.
 for the change color button we added click event and run a infinite loop of colors by using if else condition.
 and for change shape button we craeted a new class by className method whose parameters will be given in css.
 after clicking on change shape button it actually chnges two classes first class is craeted by html and the second class is created dynamically.
+
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="section">
+        <div id="circle">
+            <div class="triangle"></div>
+        </div>
+        <div id="changeColor">
+            <button class="btn">Change Color</button>
+        </div>
+        <div id="changeShape">
+            <button class="btn">Change Shape</button>
+        </div>
+    </div>
+
+
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
