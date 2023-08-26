@@ -12,4 +12,16 @@ for the change color button we added click event and run a infinite loop of colo
 and for change shape button we craeted a new class by className method whose parameters will be given in css.
 after clicking on change shape button it actually chnges two classes first class is craeted by html and the second class is created dynamically.
 
+HTML code
+<div id="section">
+        <div id="circle">
+            <div class="triangle"></div>
+        </div>
+        <div id="changeColor">
+            <button class="btn">Change Color</button>
+        </div>
+        <div id="changeShape">
+            <button class="btn">Change Shape</button>
+        </div>
+    </div>
 
