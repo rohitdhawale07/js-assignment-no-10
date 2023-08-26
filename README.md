@@ -14,7 +14,7 @@ after clicking on change shape button it actually chnges two classes first class
 
 below is code :-
 
-HTML
+#HTML
     <div id="section">
         <div id="circle">
             <div class="triangle"></div>
@@ -27,7 +27,7 @@ HTML
         </div>
     </div>
 
-    CSS
+    #CSS
     
 #section{
     text-align: center;
@@ -74,7 +74,7 @@ HTML
     border-right: 75px solid transparent;
 }
 
-JAVASCRIPT
+#JAVASCRIPT
 const circle = document.getElementById("circle");
 const triangle = document.querySelector(".triangle");
 const changeColor = document.getElementById("changeColor");
